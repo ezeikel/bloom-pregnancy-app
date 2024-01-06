@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "bloom-pregnancy-app",
-    "slug": "bloom-pregnancy-app",
+    "name": "Bloom Pregnancy",
+    "slug": "bloom-pregnancy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "co.bloompregnancy.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb4c2de5-c4f2-4d9f-bf8e-6eb265156205"
+      }
     }
   }
 }
